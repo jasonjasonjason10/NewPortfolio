@@ -1,15 +1,12 @@
-export const Home = () => {
-  return <div className="min-h-screen ">
+import Hero from "../components/Hero";
 
-    {/* Theme Toggle*/}
+export function Home() {
+  return (
+    <>
+      <Hero />
+    </>
+  );
+}
 
-    {/* Background Effects */}
-
-    {/* Navbar  */}
-
-    {/* Main Content */}
 
 
-    {/* Footer */}
-  </div>;
-};
